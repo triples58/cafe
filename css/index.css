@@ -204,23 +204,16 @@ html{
 	color: #b8b8b8;
 }
 .icon_cafe_had_left{
- width: 1200px;
+ max-width: 660px;
 }
 .icon_cafe_had_right{
-	width: 1050px;
+	max-width: 549px;
 }
 .wrapper_meneger_icon_content{
 	padding-top: 76px;
 	position: relative;
 }
-.font_content_icon{
-	right: -10%;
-	position: absolute;
-	top:90px;
-	width: 1280px;
-	height: 750px;
-	background: rgba(0, 0, 0, 0.16);
-}
+
 .icon_inform{
 	padding-top: 129px;
 }
@@ -251,6 +244,7 @@ html{
 	width: 300px;
 }
 .meneger_icon_content{
+	background: rgba(0, 0, 0, 0.16);
 	display: flex;
 	justify-content: center;
 	gap:100px;
@@ -275,4 +269,43 @@ html{
 	flex-direction: column;
 	padding-left: 64px;
 	/* margin-right: 65px; */
+}
+.menu_cafe_text{
+	display: flex;
+	justify-content: space-between;
+}
+.menu_cafe_wrapper{
+	padding-top: 150px;
+}
+.menu_cafe_wrapper>p{
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #ffb577;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.menu_cafe_wrapper>p:after{
+	display: block;
+	content: "";
+	background-color:  #fff;
+	width: 48px;
+	height: 1px;
+	
+}
+.menu_cafe_text_left>p{
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
+	color: #c4e4ea;
+}
+.menu_cafe_text_left>h5{
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 121%;
+	color: #fff;
 }
